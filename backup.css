@@ -1,0 +1,209 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+*{
+  margin: 0;
+  padding:0;
+  
+}
+body{
+  margin: 0;
+
+}
+.jumbotron{
+  height: 280px;
+}
+
+.A{
+  margin :10px;
+  word-spacing: normal;
+  
+}
+
+.col-sm{
+  width: 10px;
+  border-right: solid 1px black;
+  text-align: center;
+  border-spacing: 1px;
+  text-align: justify;
+  text-decoration: none;
+  color: #edeff2;
+
+}
+.row{
+  width: 55%;
+  border: solid 2px black;
+  border-radius: 8px;
+  background-color: #2b5391;
+
+}
+.intro{
+  background-color: blue;
+  width: 100%;
+
+}
+img{
+  float: right;
+  position: absolute;
+  TOP:350px;LEFT:470px;
+}
+#detail{
+  text-align: center;
+  float: right;
+  position: absolute;
+  TOP:370px;LEFT:570px;
+}
+.birth {
+  list-style-type: none;
+  position: absolute;
+  TOP:320px;LEFT:50px;
+}
+.social li{
+  list-style-type: none;
+  display: inline-block;
+  position: absolute;
+  TOP:410px;LEFT:50px;
+  padding-right: 100px;
+}
+
+
+
+#about-me{
+  width:100px;
+  height:30px;
+  border:2px solid #000;
+  padding-left: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  position: absolute;
+  left: 50px;top: 280px;
+  
+} 
+.details{
+  position: absolute;
+  left: 20px;top: 300px
+}
+
+#skills{
+  width:50px;
+  height:20px;
+  border:1px solid #000;
+  position: absolute;
+  left: 40px;top: 470px;
+} 
+#experience{
+  width:100px;
+  height:20px;
+  border:1px solid #000;
+
+}
+
+#years{
+  width:100px;
+  height:20px;
+  border:1px solid #000;
+
+}
+
+#educate{
+  width:100px;
+  height:20px;
+  border:1px solid #000;
+ 
+}
+#duration{
+  width:100px;
+  height:20px;
+  border:1px solid #000;
+}
+#dura{
+  width:100px;
+  height:20px;
+  border:1px solid #000;
+}
+
+
+
+
+
+
+<div class="line">
+  <svg height="210" width="500">
+      <line x1="0" y1="0" x2="200" y2="200" style="stroke:rgb(255,0,0);stroke-width:2" />
+  </svg>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+
+
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 100px;
+
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke:  #3c9ee5;
+}
+
+.circular-chart.green .circle {
+  stroke:  #3c9ee5;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}

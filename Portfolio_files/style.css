@@ -1,0 +1,242 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+
+
+.intro{
+  
+  position: relative;
+  font-family: 'Alegreya', sans-serif;
+  text-decoration: none;
+}
+
+.col-sm{
+  width: 10px;
+  border-right: solid 1px black;
+  text-align: center;
+  border-spacing: 1px;
+  text-align: justify;
+  text-decoration: none;
+  color: #edeff2;
+}
+
+.A{
+  margin :10px;
+  word-spacing: normal;
+  
+}
+.row{
+  width: 55%;
+  border: solid 2px black;
+  border-radius: 8px;
+  background-color: #2b5391;
+  position: relative;
+  left:3px;top: 5px;
+  text-align: center;
+
+}
+
+#about-me{
+  width:100px;
+  height:30px;
+  border:2px solid #000;
+  position: relative;
+  left: 40px;top: 5px;
+  text-align: center;
+  border-radius: 8px;
+} 
+
+
+img{
+  position: absolute;
+  TOP:5px;LEFT:580px;
+
+}
+
+#para{
+  position: absolute;
+  TOP:5px;LEFT:720px;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  height: 200px;
+  word-wrap: break-word;
+}
+.social li{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  TOP:0px;
+  font-size: 30px;
+}
+.birth{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  TOP:10px;LEFT:3px;
+}
+
+.technology{
+  width: 100%;
+  position: relative;
+  left: 200px;top:5px;
+  
+}
+#skills{
+  width:50px;
+  height:20px;
+  border:1px solid #000;
+  position: absolute;
+  left: 40px;top: 190px;
+  text-align: center;
+} 
+
+.experience{
+  width: 100%;
+    background-color: #4d78bc;
+    text-decoration: none;
+
+}
+ #experience{ 
+  width:100px;
+  height:30px;
+  border:1px solid #000;
+  position: relative;
+  left: 40px; top: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.company{
+  position: relative;
+  left: 1px; top: 60px;
+}
+#years{
+  width:120px;
+  height:30px;
+  border:1px solid #000;
+  position: relative;
+  left: 400px; top: -20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.dev{
+  position: relative;
+  left: 40px; top: 40px;
+}
+
+.education{
+    width: 100%;
+      background-color: #4d78bc;
+      text-decoration: none;
+      height: 300px;
+
+}
+#educate{
+  width:100px;
+  height:30px;
+  border:1px solid #000;
+  position: relative;
+  left: 40px; top: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+#duration{
+  width:100px;
+  height:30px;
+  border:1px solid #000;
+  position: relative;
+  left: 400px; top: -5px;
+  text-align: center;
+  border-radius: 10px;
+}
+#dura{
+  width:100px;
+  height:30px;
+  border:1px solid #000;
+  position: relative;
+  left: 400px; top: 9px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.BCA{
+  position: relative;
+  TOP:70px;LEFT:3px;
+}
+.MCA{
+  position: relative;
+  TOP:60px;LEFT:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: inline-block;
+  margin: 10px auto;
+  max-width: 40%;
+  max-height: 100px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke:  #3c9ee5;
+}
+
+.circular-chart.green .circle {
+  stroke:  #3c9ee5;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}

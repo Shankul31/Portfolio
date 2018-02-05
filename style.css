@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+.intro{
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+  font-size: 18px;
+  margin-top: 1px;
+  height: 250px;
+ }
+ 
+ .top{
+  width: 80%;
+  background-color: #5696ef;
+  position: relative;
+  top: -60px; left: 330px;
+  border-top: 4px solid #5696ef;
+
+}
+.bottom{
+  width:80%;
+  background-color: #5696ef;
+  position: relative;
+  top: -30px;left: 330px;
+  border-top: 4px solid #5696ef;
+
+}
+
+
+
+.col-sm{
+  width: 10px;
+  border-right: solid 1px #f2f4f7;
+  text-align: center;
+  border-spacing: 1px;
+  text-align: justify;
+  text-decoration: none;
+  color: #edeff2;
+}
+
+.A{
+  margin :10px;
+  word-spacing: normal;
+  
+}
+.row{
+  width: 55%;
+  border: solid 0px black;
+  border-radius: 7px;
+  background-color: #2b5391;
+  position: relative;
+  left:3px;top: 5px;
+  text-align: center;
+  background-color: #3d5372;
+
+}
+
+#about-me{
+  width:15%;
+  height:30px;
+  border:0px solid #000;
+  position: relative;
+  left: 40px;top: -20px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #3d5372;color: ;
+  color:#f2f4f7;
+
+
+} 
+
+
+img{
+  position: absolute;
+  TOP:20px;LEFT:480px;
+  
+}
+
+#para{
+  position: absolute;
+  TOP:10px;LEFT:610px;
+  text-align: justify;
+  word-wrap: break-word;
+  width: 400px;
+  height: 200px;
+  word-wrap: break-word;
+}
+.social li{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  TOP:-30px;
+  font-size: 30px;
+  margin:5px 5px;
+}
+.birth{
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  TOP:-30px;LEFT:3px;
+}
+
+.technology{
+  width: 50%;
+  position: relative;
+  left: 200px;top:-100px;
+  margin-top: 100px;
+  
+}
+#skills{
+  width:15%;
+  height:30px;
+  border:0px solid #000;
+  position: absolute;
+  left: 40px;top: 220px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  color:#f2f4f7;
+  background-color: #3d5372;
+
+} 
+
+.experience{
+    width: 100%;
+    background-color: #3d5372;
+    text-decoration: none;
+    margin-top: -80px;
+}
+ #experience{ 
+  width:110px;
+  height:31px;
+  border:0  px solid #000;
+  position: relative;
+  left: 40px; top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  color:#f2f4f7;
+  font-size: 20px;
+  background-color:  #5696ef;
+;
+}
+.company{
+  position: relative;
+  left: 1px; top: 50px;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+    color:#f2f4f7;
+
+
+}
+
+#years{
+  width:120px;
+  height:35px;
+  border:0px solid #000;
+  position: relative;
+  left: 380px; top: -45px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color:#f2f4f7;
+  font-family: 'Comfortaa', cursive;
+  background-color: #5696ef;
+
+
+}
+
+.dev{
+  position: relative;
+  left: 40px; top: 40px;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  color:#f2f4f7;
+
+}
+
+.education{
+      width: 100%;
+      background-color: #3d5372;
+      height: 350px;
+      font-family: 'Comfortaa', cursive;
+      font-size: 20px;
+      color: #f2f4f7
+
+
+
+}
+#educate{
+  width:100px;
+  height:30px;
+  border:0px solid #000;
+  position: relative;
+  left: 40px; top: 49px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #5696ef;
+;
+}
+
+
+#duration{
+  width:100px;
+  height:30px;
+  border:0px solid #000;
+  position: relative;
+  left: 400px; top: -20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #5696ef;
+
+}
+#dura{
+  width:100px;
+  height:30px;
+  border:0px solid #000;
+  position: relative;
+  left: 400px; top: -9px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #5696ef;
+
+
+}
+.BCA{
+  position: relative;
+  TOP:70px;LEFT:3px;
+}
+.MCA{
+  position: relative;
+  TOP:60px;LEFT:3px;
+}
+.html{
+  position: relative;
+  left: 78px;
+}
+
+.css{
+  position: relative;
+  left: 85px;
+}
+.js{
+  position: relative;
+  left: 60px;
+}
+
+.extop{
+  width:70%;
+  background-color: red;
+  position: relative;
+  top: 45px;left: 220px;
+  border-top: 2px solid #5696ef;
+}
+.edutop{
+  width:70%;
+  background-color: red;
+  position: relative;
+  top: 15px;left: 220px;
+  border-top: 2px solid #5696ef;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: inline-block;
+  margin: 10px 62px;
+  max-width: 80%;
+  max-height: 200px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke:  #3c9ee5;
+}
+
+.circular-chart.green .circle {
+  stroke:  #3c9ee5;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
